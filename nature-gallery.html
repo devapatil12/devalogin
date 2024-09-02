@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Sound Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F0FFF0;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #3C763D;
+        }
+
+        header img {
+            max-height: 80px;
+        }
+
+        .social-icons {
+            font-size: 24px;
+            padding: 10px;
+        }
+
+        .social-icons a {
+            margin-left: 15px;
+            color: white;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: lightgreen;
+        }
+
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #6DAA6F;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            padding: 10px;
+            display: block;
+            transition: color 0.3s, border-bottom 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: lightgreen;
+            border-bottom: 2px solid white;
+        }
+
+        .banner {
+            width: 100%;
+            height: 400px;
+            background-image: url('your-nature-image-url-here');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 36px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .sound-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+            padding: 20px;
+        }
+
+        .sound-grid div {
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .sound-grid div audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .sound-grid div p {
+            margin: 10px 0;
+        }
+
+        .anna {
+            text-align: center;
+            background-color: #A4D3A2;
+            padding: 16px;
+            font-size: 24px;
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="your-logo-url-here" alt="Nature Logo">
+        <div class="social-icons">
+            <div class="social-icons">
+    <a href="https://www.instagram.com/_devashishpatil_?igsh=MW90ZTBraDF5MzBjaw==" target="_blank">
+        <i class="fa fa-instagram"></i></a>
+    <a href="https://wa.me/917219560307"><i class="fa fa-whatsapp"></i></a>
+    <a href="#"><i class="fa fa-facebook"></i></a>
+
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="banner">
+        Welcome to Nature Images & Music
+    </section>
+
+    <div class="anna">
+        Sound Gallery
+    </div>
+
+    
+    <div class="sound-grid">
+        <div>
+            <p>Birds Chirping</p>
+            <audio controls>
+                <source src="birds-chirping.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div>
+            <p>Rainforest Ambiance</p>
+            <audio controls>
+                <source src="rainforest-ambiance.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div>
+            <p>Ocean Waves</p>
+            <audio controls>
+                <source src="ocean-waves.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div>
+            <p>Mountain Wind</p>
+            <audio controls>
+                <source src="mountain-wind.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+
+    <div class="anna">
+        Enjoy Nature Images & Music
+    </div>
+</body>
+
+</html>
